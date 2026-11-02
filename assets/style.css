@@ -77,9 +77,9 @@ p{margin:0 0 14px}
   box-shadow:0 1px 3px rgba(10,33,96,.06)}
 section.alt .card{background:#fff}
 ul.checks{list-style:none;margin:0;padding:0}
-ul.checks li{padding:8px 0 8px 28px;position:relative;border-bottom:1px solid var(--line)}
+ul.checks li{padding:10px 0 10px 28px;position:relative;border-bottom:1px solid var(--line);line-height:1.45}
 ul.checks li:last-child{border-bottom:0}
-ul.checks li::before{content:"✓";position:absolute;left:2px;color:var(--accent-dark);font-weight:700}
+ul.checks li::before{content:"✓";position:absolute;left:2px;top:10px;color:var(--accent-dark);font-weight:700}
 .steps{counter-reset:step}
 .step{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;
   box-shadow:0 1px 3px rgba(10,33,96,.06)}
