@@ -50,8 +50,11 @@
     </div>
 
     <h2>Please complete the form below</h2>
-    <!-- TODO: wire form handler before launch — this form does not submit anywhere yet. Choose a form endpoint (e.g. Formspree/FormSubmit or a small serverless function) and set the form action/method accordingly. -->
-    <form class="contact" action="#" method="post">
+    <form class="contact" action="https://formsubmit.co/onboarding@thelenderfriend.com" method="post">
+      <input type="hidden" name="_subject" value="New contact form submission — thelenderfriend.com">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" value="https://stephenpounds77-hub.github.io/lenderfriend/">
+      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div>
         <label for="cf-name">Name</label>
         <input id="cf-name" name="name" type="text" autocomplete="name" required>
