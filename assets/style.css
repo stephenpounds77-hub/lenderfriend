@@ -47,7 +47,7 @@ a:hover{color:var(--accent-dark)}
 /* Hero */
 .hero{background:linear-gradient(160deg,var(--navy) 0%,var(--navy-light) 100%);color:#fff;padding:56px 0 48px}
 .hero .eyebrow{text-transform:uppercase;letter-spacing:1.6px;font-size:.8rem;color:#c8d5e2;margin:0 0 10px}
-.hero h1{font-size:2.35rem;line-height:1.2;margin:0 0 16px;max-width:22em}
+.hero h1{font-size:2.35rem;line-height:1.2;margin:0 0 16px;max-width:22em;color:#fff}
 .hero p.lede{font-size:1.15rem;color:#e7eef5;max-width:44em;margin:0 0 22px}
 .hero .badges{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
 .badge{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.25);border-radius:var(--radius);
